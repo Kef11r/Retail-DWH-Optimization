@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36623.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "data_generator", "data_generator\data_generator.pyproj", "{36C1394C-CC3A-4DDB-9D9C-5B8EB188758D}"
+EndProject
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "Retail-ETL-Packages", "Retail-ETL-Packages\Retail-ETL-Packages.dtproj", "{8B08D3A9-D9A8-210D-33E5-A4D9E3FE8F84}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Retail-DB", "Retail-DB\Retail-DB.sqlproj", "{6774B4AC-5937-4BD4-95C4-3A16EBE34DA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Development|Any CPU = Development|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36C1394C-CC3A-4DDB-9D9C-5B8EB188758D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36C1394C-CC3A-4DDB-9D9C-5B8EB188758D}.Development|Any CPU.ActiveCfg = Release|Any CPU
+		{36C1394C-CC3A-4DDB-9D9C-5B8EB188758D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B08D3A9-D9A8-210D-33E5-A4D9E3FE8F84}.Debug|Any CPU.ActiveCfg = Development
+		{8B08D3A9-D9A8-210D-33E5-A4D9E3FE8F84}.Debug|Any CPU.Build.0 = Development
+		{8B08D3A9-D9A8-210D-33E5-A4D9E3FE8F84}.Development|Any CPU.ActiveCfg = Development
+		{8B08D3A9-D9A8-210D-33E5-A4D9E3FE8F84}.Development|Any CPU.Build.0 = Development
+		{8B08D3A9-D9A8-210D-33E5-A4D9E3FE8F84}.Release|Any CPU.ActiveCfg = Development
+		{8B08D3A9-D9A8-210D-33E5-A4D9E3FE8F84}.Release|Any CPU.Build.0 = Development
+		{6774B4AC-5937-4BD4-95C4-3A16EBE34DA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6774B4AC-5937-4BD4-95C4-3A16EBE34DA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6774B4AC-5937-4BD4-95C4-3A16EBE34DA7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6774B4AC-5937-4BD4-95C4-3A16EBE34DA7}.Development|Any CPU.ActiveCfg = Release|Any CPU
+		{6774B4AC-5937-4BD4-95C4-3A16EBE34DA7}.Development|Any CPU.Build.0 = Release|Any CPU
+		{6774B4AC-5937-4BD4-95C4-3A16EBE34DA7}.Development|Any CPU.Deploy.0 = Release|Any CPU
+		{6774B4AC-5937-4BD4-95C4-3A16EBE34DA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6774B4AC-5937-4BD4-95C4-3A16EBE34DA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6774B4AC-5937-4BD4-95C4-3A16EBE34DA7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9A68667-4E27-453C-8778-4857037034C1}
+	EndGlobalSection
+EndGlobal
